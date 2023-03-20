@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU Affero General Public License v3.0"
+issueTrackerURL="https://github.com/Viola-Siemens/Ominous-Contract/issues"
+
+[[mods]]
+modId="ominouscontract"
+version="${file.jarVersion}"
+displayName="Ominous Contract"
+logoFile="logo.png"
+credits="Liu Dongyu"
+authors="Hexagram"
+description='''
+With this mod, you can join the lineup of illagers, fight against golems and enslave villagers.
+'''
+
+[[dependencies.ominouscontract]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ominouscontract]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
